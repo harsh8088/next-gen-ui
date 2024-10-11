@@ -18,6 +18,7 @@ class OrbShaderPainter extends CustomPainter {
     required this.mousePos,
     required this.energy,
   });
+
   final FragmentShader shader;
   final OrbShaderConfig config;
   final double time;

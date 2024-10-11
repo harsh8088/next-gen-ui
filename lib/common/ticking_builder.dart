@@ -7,7 +7,9 @@ import 'package:flutter/scheduler.dart';
 
 class TickingBuilder extends StatefulWidget {
   const TickingBuilder({super.key, required this.builder});
+
   final Widget Function(BuildContext context, double time) builder;
+
   @override
   State<TickingBuilder> createState() => _TickingBuilderState();
 }

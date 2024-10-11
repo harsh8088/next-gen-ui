@@ -245,6 +245,7 @@ class _RenderShaderSamplerBuilderWidget extends RenderProxyBox {
   /// The device pixel ratio used to create the child image.
   double get devicePixelRatio => _devicePixelRatio;
   double _devicePixelRatio;
+
   set devicePixelRatio(double value) {
     if (value == devicePixelRatio) {
       return;
@@ -256,6 +257,7 @@ class _RenderShaderSamplerBuilderWidget extends RenderProxyBox {
   /// The painter used to paint the child snapshot or child widgets.
   AnimatedSamplerBuilder get builder => _builder;
   AnimatedSamplerBuilder _builder;
+
   set builder(AnimatedSamplerBuilder value) {
     if (value == builder) {
       return;
@@ -266,6 +268,7 @@ class _RenderShaderSamplerBuilderWidget extends RenderProxyBox {
 
   bool get enabled => _enabled;
   bool _enabled;
+
   set enabled(bool value) {
     if (value == enabled) {
       return;
@@ -298,6 +301,7 @@ class _ShaderSamplerBuilderLayer extends OffsetLayer {
 
   Size get size => _size;
   Size _size = Size.zero;
+
   set size(Size value) {
     if (value == size) {
       return;
@@ -308,6 +312,7 @@ class _ShaderSamplerBuilderLayer extends OffsetLayer {
 
   double get devicePixelRatio => _devicePixelRatio;
   double _devicePixelRatio = 1.0;
+
   set devicePixelRatio(double value) {
     if (value == devicePixelRatio) {
       return;
@@ -318,6 +323,7 @@ class _ShaderSamplerBuilderLayer extends OffsetLayer {
 
   AnimatedSamplerBuilder get callback => _callback;
   AnimatedSamplerBuilder _callback;
+
   set callback(AnimatedSamplerBuilder value) {
     if (value == callback) {
       return;

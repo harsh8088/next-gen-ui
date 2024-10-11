@@ -14,7 +14,9 @@ class ReactiveWidget extends StatefulWidget {
     super.key,
     required this.builder,
   });
+
   final ReactiveWidgetBuilder builder;
+
   @override
   State<ReactiveWidget> createState() => _ReactiveWidgetState();
 }
